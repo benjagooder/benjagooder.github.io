@@ -1,0 +1,14 @@
+{
+  "these": [
+		{"section_title": "\"String Theory\" by David Foster Wallace", "start_time": 8, "end_time": 13, "section_rank": 1, "context_start_time": 0, "context_end_time": 183},
+		{"section_title": "\"Shoe Dog\" by Phil Knight", "start_time": 36, "end_time": 41, "section_rank": 1, "context_start_time": 184, "context_end_time": 582},
+  	{"section_title": "\"The Myth of The Strong Leader\" by Archie Brown", "start_time": 61, "end_time": 66, "section_rank": 1, "context_start_time": 583, "context_end_time": 859},
+		{"section_title": "\"The Grid\" by Getchen Bakke", "start_time": 93, "end_time": 97, "section_rank": 1, "context_start_time": 860, "context_end_time": 1072},
+		{"section_title": "\"The Gene\" by Siddhartha Mukherjee", "start_time": 116, "end_time": 121, "section_rank": 1, "context_start_time": 1073, "context_end_time": 1267},
+		{"section_title": "\"Lincoln in the Bardo\" by George Saunders", "start_time": 165, "end_time": 169, "section_rank": 1, "context_start_time": 1073, "context_end_time": 1267},
+		{"section_title": "\"Everything Happens for a Reason\" by Kate Bowler", "start_time": 190, "end_time": 194, "section_rank": 1, "context_start_time": 1073, "context_end_time": 1267},
+		{"section_title": "\"Origin Story\" by David Christian", "start_time": 216, "end_time": 220, "section_rank": 1, "context_start_time": 1073, "context_end_time": 1267},
+		{"section_title": "\"Factfulness\" by Hans Rosling", "start_time": 245, "end_time": 249, "section_rank": 1, "context_start_time": 1073, "context_end_time": 1267},
+		{"section_title": "\"Leonardo da Vinci\" by Walter Isaacson", "start_time": 280, "end_time": 284, "section_rank": 1, "context_start_time": 1073, "context_end_time": 1267}
+		]
+}
