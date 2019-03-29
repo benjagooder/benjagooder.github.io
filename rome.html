@@ -46,33 +46,45 @@
 					<br>
 					<ul class="nav nav-pills nav-stacked">
 						<li><a href="index.html">Home</a></li>
-						<li><a href="projects.html">Projects</a></li>
+						<li><a href="projects.html">Project</a></li>
+						<ul><li class="active"><a href="#">Rome</a></li></ul>
 						<li><a href="blog.html">Blog</a></li>
-						<li class="active"><a href="quotes.html">Quotes</a></li>
+						<li><a href="quotes.html">Quotes</a></li>
 						<li><a href="links.html">Important Links</a></li>
 						<li><a href="contact.html">Contact Me</a></li>
 					</ul><br>
 				</div>
 
 				<div class="col-sm-10">
-					<h4><small>QUOTES</small></h4>
+					<h4><small>Rome</small></h4>
 					<hr>
 					<ul>
-						<li>"I think a life properly lived is just learn, learn, learn all the time."<br> - Charlie Munger</li>
+						<li>Purpose:</li>
+						<ol>
+							<li>To use ANTLR and the visitor pattern to dynamically parse text input via SMS</li>
+						</ol>
+						<img src="Rome%20system%20model.jpg" alt="theComputerWolf" width="70%"/>
 						<br>
-						<li>	"People don't change their minds. They die, and are replaced by people with different opinions."<br> - Arturo Albergati</li>
-						<br>
-						<li>"Change breaks the brittle"<br> - Jan Houtema</li>
-						<br>
-						<li>"Anybody can become angry - that is easy, but to be angry with the right person and to the right degree and at the right time and for the right purpose, and in the right way - that is not within everybody's power and is not easy"<br> - Aristotle
-						</li>
-						<br>
-						<li>“This is Bieber’s world. You’re just living in it. Bieber or die.”<br> - René Descartes</li>
-						<br>
-						<li>“If you embrace "absurd" in a serious way, I think you're getting there.”<br> - Hanz Zimmer
-						</li>
+						<li>System Model Explanation:</li>
+						<ol>
+							<li>The user sends an SMS text message to the Twilio number</li>
+							<li>The message is then captured by the Flask web app via webhook</li>
+							<li>This message would be written into a text file</li>
+							<li>The AntlrProgram uses Rome grammar, ANTLR, and a visitor pattern in order to read in the stream of characters, tokenize each element of the text, assign value to each element of the text, and categorize each element of the text</li>
+							<ul>
+								<li>input = FileStream(argv[1])</li>
+								<li>lexer = RomeLexer(input)</li>
+								<li>stream = CommonTokenStream(lexer)</li>
+								<li>parser = RomeParser(stream)</li>
+								<li>tree = parser.rome()</li>
+								<li>visitor = MercuryVisitor()</li>
+								<li>myMessages = visitor.getMessages(tree)</li>
+							</ul>
+							<li>myMessages is written into the RomeOutput text file</li>
+							<li>The Flask web app then reads in each element and assigns it to its respective list</li>
+							<li>Each list is then displayed via the web app</li>
+						</ol>
 					</ul>
-					<br>
 					<hr>
 				</div>
 			</div>
