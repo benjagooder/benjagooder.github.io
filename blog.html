@@ -58,22 +58,7 @@
 				<div class="col-sm-10">
 					<h4><small>MISC. LISTS</small></h4>
 					<hr>
-				
-					<h5 style="font-weight: 550">Neat links</h5>	
-						<ul>
-							<li><a href="https://www.bbc.com/news/av/technology-46894072/nera-the-3d-printed-electric-motorbike">3D-printed motorcycle</a></li>
-							<li><a href="https://www.youtube.com/watch?v=UsnPyKsmSmI">The first screenplay written entirely by AI</a></li>
-							<li><a href="http://www.whichfaceisreal.com/index.php">Which face is real?</a></li>
-							<li><a href="https://www.youtube.com/watch?v=4DKrcpa8Z_E">Forefront of automated warehoouses</a></li>
-							<li><a href="http://info.cern.ch/">Explore the very first website</a></li>
-							<li><a href="https://xkcd.com/1975/">Awesome xkcd post "Right Click"</a></li>
-							<li><a href="https://youtu.be/ImVK5cGVrpQ">The smallest WiFi button in the world</a></li>
-							<li><a href="https://www.youtube.com/watch?v=rvQ9DjJNal0&feature=youtu.be">Flight via paramoter</a></li>
-							<li><a href="https://www.youtube.com/watch?v=OK2y4Z5IkZ0&feature=youtu.be">Haptic Glove</a></li>
-							<li><a href="https://techcrunch.com/2019/01/08/ibm-unveils-its-first-commercial-quantum-computer/">Word's first commercial quantum computer</a></li>
-							<li><a href="https://www.youtube.com/watch?v=m3u-1yttrVw">Live debate - IBM Project Debater</a></li>
-							<li><a href="https://ifindkarma.typepad.com/relax/2004/09/google_labs_apt.html">Google Labs Aptitude Test (GLAT)</a></li>
-						</ul>
+
 					
 					<div>
 						<h5 style="font-weight: 550">Movies I'd Like To Watch</h5>
@@ -163,20 +148,62 @@
 					</div>
 					
 					<div>
+					<h5 style="font-weight: 550">Software Engineering Rules, Principles, and Random Other Mental Anchors to Grok</h5>
+						<h6>(Almost entirely from slides and the notes taken from <a href="https://scholar.google.com/citations?user=gudx2XcAAAAJ&hl=en">Samuel Sungmin Cho's</a> Software Engineering lectures)</h6>
+						<ul>
+							<li>Keep It Simple, Stupid (KISS)</li>
+							<li>Don't Restate Yourself (DRY)</li>
+							<li>Understand <mark>world</mark> &#10142 Write <mark>requirements</mark> &#10142 Design <mark>specifications</mark> &#10142 Implement <mark>machine</mark></li>
+							<li>High Coherence</li>
+							<ul><li>Similar functions should be inside the same module</li></ul>
+							<li>Low Coupling</li>
+							<ul><li>One modiﬁcation should impact as little as possible</li></ul>
+							<li>SOLID principles of Object Oriented Design</li>
+							<ul>
+								<li>Single Responsibility Principle</li>
+								<ul><li>A class should do only 1 job</li></ul>
+								<li>Open/Closed Principle</li>
+								<ul><li>A class should be closed for change, but open for extension</li></ul>
+								<li>Liskov substitution principle</li>
+								<ul><li>Objects in a program should be replaceable with instance of their subtypes without altering the correctness of the program</li></ul>
+								<li>Interface segregation principle</li>
+								<ul><li>Many client-specific interfaces are better than one general-purpose interface</li></ul>
+								<li>Dependency inversion principle</li>
+								<ul><li>Depend on abstractions, not concretions</li></ul>
+							</ul>
+							<li>Law of Demeter (LoD)</li>
+							<ul><li>Limit the scope of knowledge that any classes has to maintain to enhance reusability</li></ul>
+							<li>Don't leave broken windows</li>
+							<ul><li>Software entropy is slowed if you limit the amount of hacky, bad code implementation as soon as possible</li></ul>
+							<li>Always design for your audience</li>
+							<li>Object Oriented Programming Rules (APIE):</li>
+							<ul>
+								<li>Abstraction</li>
+								<li>Polymorphism</li>
+								<li>Inheritance</li>
+								<li>Encapsulation</li>
+							</ul>
+							<li>There are no silver bullets</li>
+						</ul>
+					</div>
+					
+					<div>
+						<h5 style="font-weight: 550">Software Engineering Books</h5>
+						<ul>
+							<li><i>The Mythical Man-Month: Essays on Software Engineering</i> - Fred Brooks 1995</li>
+							<li><i>The Pragmatic Programmer: From Journeyman to Master</i> - Andrew Hunt and David Thomas 1999</li>
+							<li><i>Clean Code: A Handbook of Agile Software Craftsmanship</i> - Robert C. Martin 2008</li>
+							<li><i>Design Patterns: Elements of Reuable Object-Oriented Software</i> - Gamma, Helm, Johnson, Vlissides 1994</li>
+						</ul>
+					</div>
+							
+					<div>
 						<h5 style="font-weight: 550">Lists To Make</h5>
 						<ul>
 							<li>Books Read (rating and biggest takeaway from each)</li>
 							<li>Physical Feats Accomplished</li>
 							<li>Books That Have Had Some Impact On Me</li>
 							<li>Music Recommendations For Myself If I Hand't Heard These Songs Before...</li>
-							<li></li>
-						</ul>
-					</div>
-					
-					<div>
-						<h5 style="font-weight: 550">Podcast Segments</h5>
-						<ul>
-							<li>Serious Interviews With Random Duos Partners On Fortnite</li>
 						</ul>
 					</div>
 					<hr>
@@ -184,7 +211,7 @@
 			</div>
 		</div>
 	</body>
-	<footer class="container-fluid">
+	<footer align="center" class="container-fluid">
   	<p>Copyright © benjagooder.com</p>
 	</footer>
 </html>
