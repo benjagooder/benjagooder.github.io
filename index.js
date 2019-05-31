@@ -1,9 +1,9 @@
-var listening = 'Midnight Organ Fight (album) - Frightened Rabbit';
+var listening = 'Mask Off Remix (Mask On) - Joyner Lucas';
 var reading = 'Deep Work - Cal Newport';
 var watching = 'Reservoir Dogs (1992)';
-var haiku1 = 'King simplicity';
-var haiku2 = 'Complexity is evil';
-var haiku3 = 'Where is this not true?';
+var haiku1 = 'I\'m tired and too hyped';
+var haiku2 = 'Consistency is good, right?';
+var haiku3 = 'Recalibrating';
 
 
 document.getElementById("musicThatIAmListeningTo").innerHTML = listening;
