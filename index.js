@@ -1,14 +1,28 @@
-var listening = 'Mask Off Remix (Mask On) - Joyner Lucas';
-var reading = 'Deep Work - Cal Newport';
-var watching = 'Reservoir Dogs (1992)';
-var haiku1 = 'I\'m tired and too hyped';
-var haiku2 = 'Consistency is good, right?';
-var haiku3 = 'Recalibrating';
+var listening = {
+	name: 'Mask Off Remix (Mask On) - Joyner Lucas',
+	date: '6/8/19'
+};
+var reading = {
+	name: 'Deep Work - Cal Newport',
+	date: '6/8/2019'
+};
+var watching = {
+	name: 'Blade Runner 2049 (2017)',
+	date: '6/8/2019'
+};
+var haiku = {
+	line1: 'I\'m tired and too hyped',
+	line2: 'Consistency is good, right?',
+	line3: 'Recalibrating'
+};
 
 
-document.getElementById("musicThatIAmListeningTo").innerHTML = listening;
-document.getElementById("bookThatIAmReading").innerHTML = reading;
-document.getElementById("cinemaThatIAmWatching").innerHTML = watching;
-document.getElementById("newestHaiku1").innerHTML = haiku1;
-document.getElementById("newestHaiku2").innerHTML = haiku2;
-document.getElementById("newestHaiku3").innerHTML = haiku3;
+document.getElementById("listening_name").innerHTML = listening.name;
+document.getElementById("listening_date").innerHTML = listening.date;
+document.getElementById("reading_name").innerHTML = reading.name;
+document.getElementById("reading_date").innerHTML = reading.date;
+document.getElementById("watching_name").innerHTML = watching.name;
+document.getElementById("watching_date").innerHTML = watching.date;
+document.getElementById("haiku_1").innerHTML = haiku.line1;
+document.getElementById("haiku_2").innerHTML = haiku.line2;
+document.getElementById("haiku_3").innerHTML = haiku.line3;
