@@ -13,7 +13,8 @@ var watching = {
 var haiku = {
 	line1: 'I\'m tired and too hyped',
 	line2: 'Consistency is good, right?',
-	line3: 'Recalibrating'
+	line3: 'Recalibrating',
+	date: '5/30/19'
 };
 
 
@@ -26,3 +27,11 @@ document.getElementById("watching_date").innerHTML = watching.date;
 document.getElementById("haiku_1").innerHTML = haiku.line1;
 document.getElementById("haiku_2").innerHTML = haiku.line2;
 document.getElementById("haiku_3").innerHTML = haiku.line3;
+document.getElementById("haiku_date").innerHTML = haiku.date;
+
+var haiku_0 = {
+	line1: 'I\'m tired and too hyped',
+	line2: 'Consistency is good, right?',
+	line3: 'Recalibrating',
+	date: '6/9/19'
+};
