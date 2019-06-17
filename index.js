@@ -7,8 +7,8 @@ var reading = {
 	date: '6/8/2019'
 };
 var watching = {
-	name: 'Blade Runner 2049 (2017)',
-	date: '6/8/2019'
+	name: 'John Wick: Chapter 2 (2017)',
+	date: '6/16/2019'
 };
 var haiku = {
 	line1: 'I\'m tired and too hyped',
