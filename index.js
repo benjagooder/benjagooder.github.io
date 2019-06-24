@@ -1,20 +1,20 @@
 var listening = {
-	name: 'Mask Off Remix (Mask On) - Joyner Lucas',
+	name: 'Money On It - Together Pangea',
 	date: '6/8/19'
 };
 var reading = {
-	name: 'Deep Work - Cal Newport',
-	date: '6/8/2019'
+	name: 'Leonardo Da Vinci - Walter Isaacson',
+	date: '6/24/2019'
 };
 var watching = {
-	name: 'John Wick: Chapter 2 (2017)',
-	date: '6/16/2019'
+	name: 'Straight Outta Compton (2015)',
+	date: '6/23/2019'
 };
 var haiku = {
-	line1: 'I\'m tired and too hyped',
-	line2: 'Consistency is good, right?',
-	line3: 'Recalibrating',
-	date: '5/30/19'
+	line1: 'Why try to be great?',
+	line2: 'Isn\'t being good better',
+	line3: 'Not sure that\'s enough',
+	date: '6/24/19'
 };
 
 
@@ -28,10 +28,3 @@ document.getElementById("haiku_1").innerHTML = haiku.line1;
 document.getElementById("haiku_2").innerHTML = haiku.line2;
 document.getElementById("haiku_3").innerHTML = haiku.line3;
 document.getElementById("haiku_date").innerHTML = haiku.date;
-
-var haiku_0 = {
-	line1: 'I\'m tired and too hyped',
-	line2: 'Consistency is good, right?',
-	line3: 'Recalibrating',
-	date: '6/9/19'
-};
