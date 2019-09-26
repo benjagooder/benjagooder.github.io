@@ -1,14 +1,14 @@
 var listening = {
-	name: 'Money On It - Together Pangea',
-	date: '6/8/19'
+	name: 'City of Stars - La La Land Original Motion Picture Soundtrack',
+	date: '9/25/19'
 };
 var reading = {
-	name: 'Leonardo Da Vinci - Walter Isaacson',
-	date: '6/24/2019'
+	name: 'Creativity Inc. - Ed Catmull',
+	date: '9/25/2019'
 };
 var watching = {
-	name: 'Straight Outta Compton (2015)',
-	date: '6/23/2019'
+	name: 'The Good Place (TV Series 2016– )',
+	date: '9/25/2019'
 };
 var haiku = {
 	line1: 'Why try to be great?',
