@@ -1,5 +1,5 @@
 var listening = {
-	name: 'City of Stars - La La Land Original Motion Picture Soundtrack',
+	name: 'Oliver Tree',
 	date: '9/25/19'
 };
 var reading = {
@@ -7,7 +7,7 @@ var reading = {
 	date: '9/25/2019'
 };
 var watching = {
-	name: 'The Good Place (TV Series 2016– )',
+	name: 'Silicon Valley (TV Series 2014– )',
 	date: '9/25/2019'
 };
 var haiku = {
