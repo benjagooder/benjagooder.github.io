@@ -1,6 +1,6 @@
 var listening = {
 	name: 'Oliver Tree',
-	date: '9/25/19'
+	date: '11/20/19'
 };
 var reading = {
 	name: 'Creativity Inc. - Ed Catmull',
@@ -8,7 +8,7 @@ var reading = {
 };
 var watching = {
 	name: 'Silicon Valley (TV Series 2014– )',
-	date: '9/25/2019'
+	date: '11/20/2019'
 };
 var haiku = {
 	line1: 'Why try to be great?',
