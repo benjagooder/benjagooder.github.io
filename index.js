@@ -1,5 +1,5 @@
 var listening = {
-	name: 'Oliver Tree',
+	name: 'Oliver Tree - Alien Boy (Big Data Remix)',
 	date: '11/20/19'
 };
 var reading = {
@@ -11,10 +11,10 @@ var watching = {
 	date: '11/20/2019'
 };
 var haiku = {
-	line1: 'Why try to be great?',
-	line2: 'Isn\'t being good better',
-	line3: 'Not sure that\'s enough',
-	date: '6/24/19'
+	line1: 'I say! Where\'s the shore?!',
+	line2: 'Swim! Take it easy. Now swim.',
+	line3: 'Movement (<, >, =) Direction',
+	date: '11/20/19'
 };
 
 
