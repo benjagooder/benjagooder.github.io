@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">	
+<html lang="en">
 	<head>
 		<title>Benja Gooder</title>
 		<meta charset="utf-8">
@@ -7,7 +7,6 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 		<style>
 			/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
 			.row.content {height: 1500px}
@@ -24,6 +23,10 @@
 				color: white;
 				padding: 15px;
 			}
+			
+			div.quoteAttribution {
+  			font-size: 0.8em;
+			} 
 
 			/* On small screens, set height to 'auto' for sidenav and grid */
 			@media screen and (max-width: 767px) {
@@ -47,62 +50,27 @@
 					<br>
 					<br>
 					<ul class="nav nav-pills nav-stacked">
-						<li class="active"><a href="index.html">Home</a></li>
+						<li><a href="index.html">Home</a></li>
 						<li><a href="projects.html">Projects</a></li>
 						<li><a href="quotes.html">Quotes</a></li>
 						<li><a href="links.html">Important Links</a></li>
 						<li><a href="blog.html">Misc. Lists</a></li>
-						<li><a href="journal.html">Journal</a></li>
+						<li class="active"><a href="journal.html">Journal</a></li>
 						<li><a href="contact.html">Contact Me</a></li>
 					</ul><br>
 				</div>
 
 				<div class="col-sm-10">
-					<h4><small>HOME</small></h4>
+					<h4><small>Thoughts</small></h4>
 					<hr>
 					<ul>
-						<li><b>What this site is:</b></li>
-						<ul>
-							<li>A place to host the most current releases of projects I've made</li>
-							<li>The ultimate repository of GREAT content for a perfect copy of myself that's never seen the goods present on this site</li>
-							<li>My online notebook</li>
-						</ul>
-						
+						<li>"Playing Metal Gear Solid V: The Phantom Pain" (article) from the January 6, 2020 issue of the New Yorker by Jamil Jan Kochai<br><div class="quoteAttribution">- To read</div></li>
 						<br>
-						
-						<li><b>Listening to:</b><span style="font-size:smaller">&nbsp&nbsp(Updated - <i id="listening_date"></i>)</span></li>
-						<ul>
-							<li id="listening_name"></li>
-						</ul>
-						
-						<p style="font-size: 20%;"></p>
-						<li><b>Reading:</b><span style="font-size:smaller">&nbsp&nbsp(Updated - <i id="reading_date"></i>)</span></li>
-						<ul>
-							<li id="reading_name"></li>
-						</ul>
-						
-						<p style="font-size: 20%;"></p>
-						<li><b>Watching:</b><span style="font-size:smaller">&nbsp&nbsp(Updated - <i id="watching_date"></i>)</span></li>
-						<ul><li id="watching_name"></li></ul>
-						
-						<p style="font-size: 20%;"></p>
-						<li><b>Fresh new haiku:</b><span style="font-size:smaller">&nbsp&nbsp(Updated - <i id="haiku_date"></i>)</span></li>
-						<ul>
-							<div style="font-style: oblique">
-								<span id="haiku_1"></span>
-								<br>
-								<span id="haiku_2"></span>
-								<br>
-								<span id="haiku_3"></span>
-							</div>
-						</ul>
-
+						<li>"The Beginniner's Guide" (video game) <br><div class="quoteAttribution">- To play</div></li>
 					</ul>
+					<br>
 					<hr>
 				</div>
-				
-					<script src="index.js"></script>
-				
 			</div>
 		</div>
 	</body>
